@@ -4,16 +4,16 @@ Both parallel algorithms are implemented in C language and require Message Passi
 The basic algorithm implementation consist of the following files:
 1. core.h - header file containing the basic data structure definitions and core function prototypes
 2. core.c - source file containing the implementations of the core functions
-3. scenario-0a.h - header file containing function prototypes specific to the basic algorithm
-4. scenario-0a.c - source file containing the implementations of functions specific to the basic algorithm
+3. basic.h - header file containing function prototypes specific to the basic algorithm
+4. basic.c - source file containing the implementations of functions specific to the basic algorithm
 
 The adaptive algorithm implementation consists of the following files:
 1. core.h - header file containing the basic data structure definitions and core function prototypes
 2. core.c - source file containing the implementations of the core functions
 3. adapt.h - header file containing the variables and function prototypes related to the adaptive part of the algorithm
 4. adapt.c - source file containing the implementations of functions related to the adaptive part of the algorithm
-5. scenario-3b.h - header file containing function prototypes specific to the adaptive algorithm
-6. scenario-3b.h - source file containing the implementations of functions specific to the adaptive algorithm
+5. adaptive.h - header file containing function prototypes specific to the adaptive algorithm
+6. adaptive.c - source file containing the implementations of functions specific to the adaptive algorithm
 
 After compilation, the program usage is as follows:
 

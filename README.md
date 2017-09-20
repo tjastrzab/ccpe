@@ -20,8 +20,8 @@ After compilation, the program usage is as follows:
   mpirun -n <N> <exe_file> <K> <in_file> <out_file>
 
 where:
-  N         - number of processes
-  exe_file  - name of the executable file
-  K         - initial threshold value
-  in_file   - input file path
-  out_file  - output file path
+  - N         - number of processes,
+  - exe_file  - name of the executable file,
+  - K         - initial threshold value,
+  - in_file   - input file path,
+  - out_file  - output file path.

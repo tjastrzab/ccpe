@@ -211,7 +211,7 @@ void create_state_list()
 	}
 	for (j = 0, i = 0; i < MADFA_q; i++)
 	{
-		if (aux_array[i] != 0)
+		if (aux_array[i] != 0 || (aux_array[i] == 0 && S[i].exists > 0))
 		{
 			// Add to active states
 			state_list[j++] = i;

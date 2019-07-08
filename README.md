@@ -17,7 +17,7 @@ The adaptive algorithm implementation consists of the following files:
 
 After compilation, the program usage is as follows:
 
-  mpirun -n <N> <exe_file> <K> <in_file> <out_file>
+  mpirun -n &lt;N&gt; &lt;exe_file&gt; &lt;K&gt; &lt;in_file&gt; &lt;out_file&gt;
 
 where:
   - N         - number of processes,
